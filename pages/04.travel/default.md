@@ -1,13 +1,10 @@
 ---
 title: Travel
-cache_enable: false
 process:
+    twig: true
     markdown: false
-    twig: false
+twig_first: true
+cache_enable: false
 ---
 
-[map-leaflet]
-[a-markers markerColor="darkblue" iconColor="white"]
-[{"lat":37.7749,"lng":-122.4194,"icon":"home","title":"Home Position" } ]
-[/a-markers]
-[/map-leaflet]
+{{ leaflet({'id': 'leaflet', 'class': 'leaflet'}) }}
