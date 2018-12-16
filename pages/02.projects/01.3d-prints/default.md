@@ -1,5 +1,5 @@
 ---
 title: Octoprint
-redirect: 'https://octoprint.spencerm.pro'
+redirect: 'http://octoprint.spencerm.pro'
 ---
 
