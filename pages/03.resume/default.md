@@ -28,3 +28,17 @@ Experienced leader with skills in facilities management, commercial real estate,
 * Created mission-critical quality control software for specialized radio and satellite manufacturing
 * Reduced documentation time by 50%+ using custom part sorting algorithms in Allegro CAD software
 * Maintained database of thousands of components' metadata & designs
+
+# Education
+## M.S. - Global Technology & Development
+###### Arizona State University | GPA: 4.0 | 2015 – 2017
+* Study: Renewable energy projects in the developing world, sustainability in agriculture and tourism, impacts of open data on democracy
+* Capstone: Open Data and Global Development (https://tinyurl.com/yaoap3g3)
+
+## B.S. - Information Systems
+###### Purdue University | 2005 – 2009
+* Study: Project management, finance, mathematical modeling, and systems analysis
+
+## A.S. - Computer Science
+###### Purdue University | 2005 – 2009
+* Study: Web, database, software development: Java, HTML, CSS, PHP, .NET, SQL
