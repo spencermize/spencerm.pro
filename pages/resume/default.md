@@ -1,5 +1,6 @@
 ---
 title: Resume
+published: true
 ---
 
 ## Summary
