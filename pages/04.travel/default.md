@@ -8,3 +8,6 @@ cache_enable: false
 ---
 
 {{ leaflet({'id': 'leaflet', 'class': 'leaflet'}) }}
+<script>
+    alert()
+</script>

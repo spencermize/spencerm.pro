@@ -1,5 +1,0 @@
-enabled: true
-provider: openstreetmap
-apikey:
-t-style: cycle
-m-style: 'mapbox.streets'
