@@ -1,5 +1,5 @@
 ---
 title: Automation
-redirect: 'https://ha.spencerm.pro'
+redirect: 'http://ha.spencerm.pro'
 ---
 
