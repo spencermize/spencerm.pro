@@ -1,5 +1,5 @@
 ---
 title: Octoprint
-redirect: 'http://sjmize.duckdns.org'
+redirect: 'https://octoprint.spencerm.pro'
 ---
 
