@@ -9,16 +9,17 @@ Experienced leader with skills in facilities management, commercial real estate,
 # Experience
 ## Director of Strategic Initiatives
 ###### The Summit | Fort Wayne, IN | 2014 – Current
-* Built and led team responsible for all real estate, technology, & financial operations and capital projects on former university campus
+* Built and led team responsible for all real estate, technology, & financial operations and capital projects on [former university campus](https://thesummitfw.com)
 * Implemented energy efficiency initiatives (lighting upgrades, HVAC tuning, shell enhancements) to reduce utility expenses by 20%
-* Drove installation of 100KW of solar - one of the region's largest rooftop arrays
+* Drove installation of 100KW of solar - one of the [region's largest rooftop arrays](https://thesummitfw.com/solar)
+* Created a 4000 SF shared kitchen ([CookSpring](https://cookspringfw.com)) and grew to become home of 30+ culinary entrepreneurs
 * Negotiated leases and tenant improvements for multiple groups with lifetime lease revenues of over $6 million
-* Managed diverse stakeholder desires to create positive outcomes
+* Managed diverse stakeholder desires to create [positive outcomes](https://drive.google.com/open?id=1ZevuGzO1lsSES2-rmoyPvBj_SnOgzBxE)
 
 ## IT Analyst / Manager
 ###### Ambassador Enterprises | Fort Wayne, IN | 2010 – 2014
-* Consulted on due diligence of technology investment portfolio, eventually totaling over $3m
-* Designed and managed construction of a state-of-the-art corporate training facility driven by Crestron
+* Consulted on due diligence of [technology investment portfolio](https://ambassador-enterprises.com/investments/our-affiliates/), eventually totaling over $3m
+* Designed and managed construction of a [state-of-the-art corporate training](https://thesummitfw.com/property/) facility driven by Crestron
 * Developed and maintained websites & content management systems for multiple teams and subsidiaries
 * Implemented helpdesk system to drive down repair times by more than 60%
 * Automated network monitoring to reduce manpower & downtime
@@ -33,7 +34,9 @@ Experienced leader with skills in facilities management, commercial real estate,
 ## M.S. - Global Technology & Development
 ###### Arizona State University | GPA: 4.0 | 2015 – 2017
 * Study: Renewable energy projects in the developing world, sustainability in agriculture and tourism, impacts of open data on democracy
-* Capstone: Open Data and Global Development (https://tinyurl.com/yaoap3g3)
+* Capstone: Open Data and Global Development
+*  * [Paper](https://tinyurl.com/yaoap3g3)
+*  * [Google Sheets / World Bank connector](https://chrome.google.com/webstore/detail/world-bank-data-explorer/fccbkmgeoehpmggjcigeacobhpnbjpof?hl=en-US)
 
 ## B.S. - Information Systems
 ###### Purdue University | 2005 – 2009
