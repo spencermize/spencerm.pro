@@ -9,5 +9,5 @@ cache_enable: false
 
 {{ leaflet({'id': 'leaflet', 'class': 'leaflet'}) }}
 <script>
-    alert()
+    var mymap = L.map('leaflet').setView([51.505, -0.09], 13);
 </script>
