@@ -4,7 +4,7 @@ title: SSL
 
 When the certificate for the Raspberry Pi expires, here's how to utilize the Home Assistant's (automatically renewed) cert:
 
-**TODO: ** Automate this
+~~**TODO: ** Automate this~~
 ~~~~
 sudo mkdir -p /etc/ssl/sjmize.duckdns.org
 
