@@ -9,7 +9,7 @@ Experienced leader with skills in facilities management, commercial real estate,
 # Experience
 ## Director of Strategic Initiatives
 ###### The Summit | Fort Wayne, IN | 2014 – Current
-* Built and led team responsible for all real estate, technology, & financial operations and capital projects on [former university campus](https://thesummitfw.com)
+* Built and led team responsible for all capital projects and real estate, technology, & financial operations on [former university campus](https://thesummitfw.com)
 * Implemented energy efficiency initiatives (lighting upgrades, HVAC tuning, shell enhancements) to reduce utility expenses by 20%
 * Drove installation of 100KW of solar - one of the [region's largest rooftop arrays](https://thesummitfw.com/solar)
 * Created a 4000 SF shared kitchen ([CookSpring](https://cookspringfw.com)) and grew to become home of 30+ culinary entrepreneurs
