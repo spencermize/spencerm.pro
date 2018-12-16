@@ -15,7 +15,7 @@ Experienced leader with skills in facilities management, commercial real estate,
 * Created a 4000 SF shared kitchen ([CookSpring](https://cookspringfw.com)) and grew to become home of 30+ culinary entrepreneurs
 * Negotiated leases and tenant improvements for multiple groups with lifetime lease revenues of over $6 million
 * Managed diverse stakeholder desires to create [positive outcomes](https://drive.google.com/open?id=1ZevuGzO1lsSES2-rmoyPvBj_SnOgzBxE)
-
+===
 ## IT Analyst / Manager
 ###### Ambassador Enterprises | Fort Wayne, IN | 2010 – 2014
 * Consulted on due diligence of [technology investment portfolio](https://ambassador-enterprises.com/investments/our-affiliates/), eventually totaling over $3m
