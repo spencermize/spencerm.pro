@@ -15,8 +15,8 @@ $(function() {
 			$.getJSON("https://spencerm.pro/user/assets/"+entity+".json", function( data ) {
 					L.geoJSON(data, {style: function(data) {
 							switch (data.properties.class) {
-								case 'visited': return {color: "#095472",fillColor:"#095472",fillOpacity:.5};
-								default: return {color:"#095472",fillColor:"#424753"};
+								case 'visited': return {color: "#095472",fillColor:"#095472","weight":1,fillOpacity:.5};
+								default: return {color:"#095472",fillColor:"#4db2b3","weight":1,fillOpacity:.1};
 							}
 					}}).addTo(mymap);
 			});
