@@ -10,21 +10,15 @@ $(function() {
 	}).addTo(mymap);
 
 	$.getJSON("https://spencerm.pro/travel?return-as=json", function( data ) {
-		var locations = JSON.parse(data.header.metadata.locations);
+		var locations = data.header.metadata.locations.split(",");
 		for (entity of locations) {
-			$.getJSON("https://spencerm.pro/user/assets/"+locations[entity]+".json", function( data ) {
-				var myStyle = {
-					style: function(data) {
-					        switch (properties.type) {
-					            case 'Country': return {color: "#ff0000"};
-											case 'FeatureCollection': return {color: "#ff0000"};
-					            case 'Feature': return {color: "#0000ff"};
-					        }
-					    }
-				};
-				L.geoJSON(loc, {
-					style: myStyle
-				}).addTo(mymap);
+			$.getJSON("https://spencerm.pro/user/assets/"+entity+".json", function( data ) {
+					L.geoJSON(data, {style: function(data) {
+							switch (data.properties.class) {
+								case 'visited': return {color: "#095472",fillColor:"#095472",fillOpacity:.5};
+								default: return {color:"#095472",fillColor:"#424753"};
+							}
+					}}).addTo(mymap);
 			});
 		}
 	})
