@@ -1,6 +1,6 @@
 ---
 title: Travel
 metadata:
-    locations: 'france,germany,malta'
+    locations: 'france,germany,malta,austria,switzerland,italy,spain,czech,canada,usa'
 ---
 
