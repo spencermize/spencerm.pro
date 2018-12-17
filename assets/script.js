@@ -12,11 +12,14 @@ $(function() {
 	$.getJSON("https://spencerm.pro/travel?return-as=json", function( data ) {
 		var country = $.parseJSON(data.header.metadata.france);
 		var myStyle = {
-			"color": "#440000",
-			"weight": 5,
-			"opacity": 1
+			style: function(feature) {
+			        switch (feature.properties.type) {
+			            case 'Country': return {color: "#ff0000"};
+			            case 'Democrat':   return {color: "#0000ff"};
+			        }
+			    }
 		};
-		L.geoJSON(country.features[0].geometry.coordinates, {
+		L.geoJSON(country.features, {
     	style: myStyle
 		}).addTo(mymap);
 	})
