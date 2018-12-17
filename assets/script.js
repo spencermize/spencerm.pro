@@ -18,6 +18,7 @@ $(function() {
 					style: function(loc) {
 					        switch (properties.type) {
 					            case 'Country': return {color: "#ff0000"};
+											case 'FeatureCollection': return {color: "#ff0000"};
 					            case 'Feature': return {color: "#0000ff"};
 					        }
 					    }
