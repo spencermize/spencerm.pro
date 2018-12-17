@@ -10,18 +10,22 @@ $(function() {
 	}).addTo(mymap);
 
 	$.getJSON("https://spencerm.pro/travel?return-as=json", function( data ) {
-		var country = $.parseJSON(data.header.metadata.france);
-		console.log(country);
-		var myStyle = {
-			style: function(country) {
-			        switch (properties.type) {
-			            case 'Country': return {color: "#ff0000"};
-			            case 'Democrat':   return {color: "#0000ff"};
-			        }
-			    }
-		};
-		L.geoJSON(country, {
-    	style: myStyle
-		}).addTo(mymap);
+		var locations = data.header.metadata;
+		console.log(locations)
+		for (var entity in locations) {
+				loc = $.parseJSON(locations[entity]);
+				var myStyle = {
+					style: function(loc) {
+					        switch (properties.type) {
+					            case 'Country': return {color: "#ff0000"};
+					            case 'Feature': return {color: "#0000ff"};
+					        }
+					    }
+				};
+			L.geoJSON(loc, {
+		    	style: myStyle
+			}).addTo(mymap);
+		}
+
 	})
 });
