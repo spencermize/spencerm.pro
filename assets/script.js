@@ -10,12 +10,11 @@ $(function() {
 	}).addTo(mymap);
 
 	$.getJSON("https://spencerm.pro/travel?return-as=json", function( data ) {
-		var locations = data.header.metadata;
-		console.log(locations)
-		for (var entity in locations) {
-				loc = $.parseJSON(locations[entity]);
+		var locations = JSON.parse(data.header.metadata.locations);
+		for (entity of locations) {
+			$.getJSON("https://spencerm.pro/user/assets/"+locations[entity]+".json", function( data ) {
 				var myStyle = {
-					style: function(loc) {
+					style: function(data) {
 					        switch (properties.type) {
 					            case 'Country': return {color: "#ff0000"};
 											case 'FeatureCollection': return {color: "#ff0000"};
@@ -23,10 +22,10 @@ $(function() {
 					        }
 					    }
 				};
-			L.geoJSON(loc, {
-		    	style: myStyle
-			}).addTo(mymap);
+				L.geoJSON(loc, {
+					style: myStyle
+				}).addTo(mymap);
+			});
 		}
-
 	})
 });
