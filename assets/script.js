@@ -15,8 +15,10 @@ $(function() {
 			console.log("Trying to draw " + entity);
 			$.getJSON("https://spencerm.pro/user/assets/"+entity+".json", function( data ) {
 					L.geoJSON(data, {style: function(data) {
-							if(data.properties.name=="INDIANA"){
-								return {color: "#f1af18",fillColor:"#f1af18","weight":1,fillOpacity:.5}
+							if(data.properties.NAME){
+								if(data.properties.NAME.toLowerCase()=="indiana"){
+									return {color: "#f1af18",fillColor:"#f1af18","weight":1,fillOpacity:.5}
+								}
 							}
 							switch (data.properties.class) {
 								case 'visited': return {color: "#095472",fillColor:"#095472","weight":1,fillOpacity:.5};
