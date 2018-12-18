@@ -7,6 +7,7 @@ image:
         enabled: '1'
         file: IMG_20171208_112703.jpg
     width: 2000
+    height: 600
 ---
 
 # Summary
