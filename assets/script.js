@@ -1,7 +1,7 @@
 var mymap;
 $(function() {
 	$("#map").height($(window).height()-$("#g-navigation").height()-($("#map").parent().outerHeight(true)-$("#map").parent().height()));
-	mymap = L.map('map').setView([41.148478, -85.475072],3);
+	mymap = L.map('map').setView([48.8566, 2.3522],2);
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
 		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 		maxZoom: 18,
@@ -12,8 +12,12 @@ $(function() {
 	$.getJSON("https://spencerm.pro/travel?return-as=json", function( data ) {
 		var locations = data.header.metadata.locations.split(",");
 		for (entity of locations) {
+			console.log("Trying to draw " + entity);
 			$.getJSON("https://spencerm.pro/user/assets/"+entity+".json", function( data ) {
 					L.geoJSON(data, {style: function(data) {
+							if(data.properties.name=="INDIANA"){
+								return {color: "#f1af18",fillColor:"#f1af18","weight":1,fillOpacity:.5}
+							}
 							switch (data.properties.class) {
 								case 'visited': return {color: "#095472",fillColor:"#095472","weight":1,fillOpacity:.5};
 								default: return {color:"#095472",fillColor:"#4db2b3","weight":1,fillOpacity:.1};
