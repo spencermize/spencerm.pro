@@ -1,10 +1,11 @@
 ---
 title: Bruges
+body_classes: modular
 content:
     items: '@self.modular'
     order:
         by: ''
         dir: ''
-body_classes: modular
 ---
 
+![](https://drive.google.com/open?id=1DzIgQpu-AvSKFYp9pCSD8dEjnKGnuatW)
