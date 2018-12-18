@@ -6,6 +6,9 @@ image:
     summary:
         enabled: '1'
         file: IMG_20171208_112703.jpg
+    text:
+        enabled: '1'
+        file: IMG_20171208_112703.jpg
 ---
 
 # Summary
