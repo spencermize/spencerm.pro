@@ -1,5 +1,7 @@
 ---
 title: Accolades
+access:
+    site.login: true
 ---
 
 A collection of nice things people have said about me.
