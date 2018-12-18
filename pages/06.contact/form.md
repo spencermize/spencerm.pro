@@ -60,3 +60,6 @@ form:
             display: thankyou
 ---
 
+# Contact form
+
+Some sample page content
