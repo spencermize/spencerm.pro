@@ -6,4 +6,4 @@ process:
     markdown: false
 ---
 
-<div id="vid" style="width: 100vw; heigh: 50vh"></div>
+<div id="vid" style="width: 100vw; height: 50vh"></div>
